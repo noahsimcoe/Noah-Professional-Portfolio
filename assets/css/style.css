@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    padding: 15px 25px 15px 0;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 50px;
+    background-color: lightblue;
+    color: black;
+    padding: 0 20px 0 50px;
+}
+
+/* the float is what puts the nav and header on the same line */
+/* the padding centers the nav info and makes it not so close to the right side of the screen */
+.header nav {
+    float: right;
+    font-size: 27px;
+    padding: 15px 30px 0 0;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: lightblue;
+}
+
+/* the margin-left is what creates space between the list items in the nav */
+.header nav ul li {
+    display: inline-block;
+    margin-left: 35px;
+    color: lightblue;
+    border-bottom: 2px solid lightblue;
+}
+
+
+.hero {
+    background-image: url("../images/ocean-waves.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 285px;
+}
+
+.hero-title {
+    background-color: lightblue;
+    position: relative;
+    bottom: -225px;
+    right: -1025px;
+    width: 15%;
+    padding: 5px 10px;
+}
+
+.content-name {
+    margin: 30px 80px;
+}
+
+.box-1 {
+    width: 24%;
+    float: left;
+    font-size: 40px;
+}
+
+.box-1 h1 {
+    text-align: right;
+    padding-right: 25px;
+}
+
+.box-2 {
+    display: inline-block;
+    width: 75%;
+    border-left: 5px solid lightblue;
+}
+
+.box-2 p {
+    padding-left: 30px;
+}
+
