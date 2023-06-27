@@ -191,12 +191,12 @@ header a:visited {
 #contact-links ul li {
     display: inline;
     font-size: 35px;
-    color: black;
+    color: var(--primary);
     text-decoration: none;
 }
 
 #contact-links a:visited {
-    color: black;
+    color: var(--primary);
 }
 
 /* creates glow effect for smaller boxes */
