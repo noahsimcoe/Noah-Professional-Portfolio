@@ -89,8 +89,8 @@ header a:visited {
 
 /* container on left that has names of sections */
 .box-1 {
-    width: 24%;
-    float: left;
+    /* width: 24%;
+    float: left; */
     font-size: 40px;
 }
 
@@ -102,8 +102,8 @@ header a:visited {
 /* container on right that has content of sections */
 /* the border-left creates the line in between box 1 and 2 */
 .box-2 {
-    display: inline-block;
-    width: 75%;
+    /* display: inline-block; */
+    /* width: 75%; */
     border-left: 5px solid var(--primary);
 }
 
@@ -209,7 +209,7 @@ header a:visited {
     box-shadow: 0px 0px 20px 4px  var(--primary);
 }
 
-/* if the screen is less than 1000px, the primary color changes */
+/* if the screen is less than 1000px, the primary color changes
 @media screen and (max-width: 950px) {
     :root {
         --primary: #5bf27c;
@@ -228,7 +228,7 @@ header a:visited {
     }
 }
 
-/* if the screen is less than 600px, the primary color changes */
+/* if the screen is less than 600px, the primary color changes
 @media screen and (max-width: 600px) {
     :root {
         --primary: #da4fcf;
@@ -236,7 +236,7 @@ header a:visited {
     .box-1 {
         font-size: 20px;
     }
-}
+} */
 
 .box-2 p {
     font-size: 1.75rem;
