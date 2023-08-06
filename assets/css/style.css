@@ -11,7 +11,6 @@
 }
 
 .header {
-    background-color: black;
     color: white;
     padding: 15px 25px 15px 0;
 }
@@ -29,7 +28,7 @@
 .header nav {
     float: right;
     font-size: 27px;
-    padding: 15px 30px 0 0;
+    padding: .8rem 5rem 0 0;
 }
 
 /* takes away the bullet points on the nav bar links */
@@ -53,34 +52,25 @@ header a:visited {
     margin-left: 35px;
     color: lightblue;
     border-bottom: 2px solid var(--primary);
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 /* background ocean image for hero section */
 .hero {
-    background-image: url("../images/ocean.jpg");
+    background-image: url("../images/blue.jpg");
     background-size: cover;
     background-position: center;
-    height: 285px;
-}
-
-.hero-title {
-    background-color: var(--primary);
-    position: relative;
-    bottom: -200px;
-    right: -900px;
-    width: 15%;
-    padding: 5px 10px;
-    color: white;
+    height: 20rem;
 }
 
 /* extra code required to move headshot in certain spot */
 .hero-pic {
     position: relative;
-    height: 75%;
-    right: -25px;
-    top: -25px;
     border: 5px solid var(--primary);
     border-radius: 300px;
+    bottom: -10px;
+    right: -10px;
 }
 
 .content-name {
@@ -99,17 +89,27 @@ header a:visited {
     padding-right: 25px;
 }
 
+#about-me {
+    padding-top: 2rem;
+}
+
+#about-me .box-2 {
+    padding-left: 2rem;
+}
+
+#about-me .box-2 p {
+    font-size: 2.25rem;
+}
+
 /* container on right that has content of sections */
 /* the border-left creates the line in between box 1 and 2 */
 .box-2 {
-    /* display: inline-block; */
-    /* width: 75%; */
     border-left: 5px solid var(--primary);
 }
 
-.box-2 * {
+/* .box-2 * {
     padding-left: 30px;
-}
+} */
 
 /* images for cards being imported as backgrounds */
 .project-1 {
@@ -141,10 +141,10 @@ header a:visited {
 #project-card {
     background-size: cover;
     background-position: center;
-    height: 150px;
+    height: 225px;
     color: white;
     border: 5px solid var(--primary);
-    margin: 7px;
+    margin: 10px;
     flex: 1 0 40%;
 }
 
@@ -152,10 +152,10 @@ header a:visited {
 #project-card5 {
     background-size: cover;
     background-position: center;
-    height: 300px;
+    height: 325px;
     color: white;
     border: 5px solid var(--primary);
-    margin: 7px;
+    margin: 10px;
     flex: 1 0 95%;
 }
 
@@ -164,10 +164,9 @@ header a:visited {
     background-color: var(--primary);
     color: black;
     position: relative;
-    width: 50%;
+    width: 40%;
     padding: 5px 10px;
     bottom: -40%;
-    left: -30px;
 }
 
 /* text for the bigger card */
@@ -178,19 +177,22 @@ header a:visited {
     width: 30%;
     padding: 5px 10px;
     bottom: -60%;
-    left: -30px;
 }
 
 #contact-links ul {
     list-style-type: none;
     color: black;
     margin: 50px 0;
+    text-align: center;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
 }
 
 /* simple styling for contact links */
-#contact-links ul li {
+#contact-links li {
     display: inline;
-    font-size: 35px;
+    font-size: 3rem;
     color: var(--primary);
     text-decoration: none;
 }
@@ -209,35 +211,18 @@ header a:visited {
     box-shadow: 0px 0px 20px 4px  var(--primary);
 }
 
-/* if the screen is less than 1000px, the primary color changes
-@media screen and (max-width: 950px) {
-    :root {
-        --primary: #5bf27c;
-    }
-    .box-1 {
-        font-size: 30px;
-    }
-    .header h1 {
-        font-size: 30px;
-    }
-    #pc-text {
-        width: 100%;
-    }
-    #pc-text5 {
-        width:100%;
-    }
+#right {
+    padding-right: 5rem;
 }
 
-/* if the screen is less than 600px, the primary color changes
-@media screen and (max-width: 600px) {
-    :root {
-        --primary: #da4fcf;
-    }
-    .box-1 {
-        font-size: 20px;
-    }
-} */
+.card h3 {
+    font-size: 2rem;
+}
 
-.box-2 p {
-    font-size: 1.75rem;
+.card p {
+    font-size: 1.25rem;
+}
+
+.box-1 h1 {
+    font-size: 3rem;
 }
