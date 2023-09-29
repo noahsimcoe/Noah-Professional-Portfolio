@@ -132,6 +132,10 @@ header a:visited {
     background-image: url("../images/search.jpg");
 }
 
+.project-5 {
+    background-image: url("../images/grind.jpg");
+}
+
 .project-box {
     display: flex;
     flex-wrap: wrap;
